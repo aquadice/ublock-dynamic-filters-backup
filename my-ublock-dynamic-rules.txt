@@ -1,5 +1,7 @@
 no-csp-reports: * true
 no-large-media: * true
+no-large-media: music.youtube.com false
+* * 3p block
 * challenges.cloudflare.com * noop
 adguard-mail.com adtidy.org * noop
 adguard-mail.com agrd.eu * noop
@@ -25,6 +27,7 @@ github.com avatars.githubusercontent.com * noop
 github.com camo.githubusercontent.com * noop
 github.com githubassets.com * noop
 github.com private-user-images.githubusercontent.com * noop
+github.com raw.githubusercontent.com * noop
 github.com user-images.githubusercontent.com * noop
 www.google.com gstatic.com * noop
 lookup.icann.org dscr.akamai.net * noop
@@ -47,6 +50,11 @@ www.reddit.com redd.it * noop
 www.reddit.com dualstack.reddit.map.fastly.net * noop
 www.reddit.com redditmedia.com * noop
 www.reddit.com redditstatic.com * noop
+www.tokopedia.com bplslb.com * noop
+www.tokopedia.com dscapi1.akamai.net * noop
+www.tokopedia.com dscapi5.akamai.net * noop
+www.tokopedia.com r.akamai.net * noop
+www.tokopedia.com tokopedia.net * noop
 upfiles.app gstatic.com * noop
 upfiles.app recaptcha.net * noop
 weebcentral.com compsci88.com * noop
@@ -60,6 +68,11 @@ m.youtube.com googlevideo.com * noop
 m.youtube.com gstatic.com * noop
 m.youtube.com jnn-pa.googleapis.com * noop
 m.youtube.com ytimg.com * noop
+music.youtube.com googleusercontent.com * noop
+music.youtube.com googlevideo.com * noop
+music.youtube.com gstatic.com * noop
+music.youtube.com jnn-pa.googleapis.com * noop
+music.youtube.com ytimg.com * noop
 www.youtube.com ggpht.com * noop
 www.youtube.com www.google.com * noop
 www.youtube.com googlevideo.com * noop
