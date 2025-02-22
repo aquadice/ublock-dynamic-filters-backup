@@ -22,10 +22,15 @@ behind-the-scene * inline-script noop
 m.bilibili.com hdslb.com * noop
 browserleaks.com browserleaks.org * noop
 comick.io meo.comick.pictures * noop
+discussion.fedoraproject.org discourse-cdn.com * noop
 www.file-upload.org hcaptcha.com * noop
+app.filen.io * 3p noop
+github.com arkoselabs.com * noop
 github.com avatars.githubusercontent.com * noop
 github.com camo.githubusercontent.com * noop
+github.com d2w650xp5tniea.cloudfront.net * noop
 github.com githubassets.com * noop
+github.com octocaptcha.com * noop
 github.com private-user-images.githubusercontent.com * noop
 github.com raw.githubusercontent.com * noop
 github.com user-images.githubusercontent.com * noop
@@ -61,6 +66,7 @@ weebcentral.com compsci88.com * noop
 weebcentral.com lastation.us * noop
 weebcentral.com official.lowee.us * noop
 en.m.wikipedia.org wikimedia.org * noop
+yandex.com avatars.mds.yandex.net * noop
 m.youtube.com yt3.ggpht.com * noop
 m.youtube.com www.google.com * noop
 m.youtube.com googleusercontent.com * noop
